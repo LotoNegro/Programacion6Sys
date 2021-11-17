@@ -6,7 +6,7 @@
     <Name>InitialData</Name>
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectVersion>4.1</ProjectVersion>
-    <ProjectGuid>{a8a83e6a-ffdc-47ff-8484-4593eaacde42}</ProjectGuid>
+    <ProjectGuid>{d5cdbdbc-4176-449b-9743-cea92f116c4f}</ProjectGuid>
     <DSP>Microsoft.Data.Tools.Schema.Sql.Sql130DatabaseSchemaProvider</DSP>
     <OutputType>Database</OutputType>
     <RootPath>
@@ -59,9 +59,7 @@
     <Folder Include="ScriptConfiguration" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="ScriptConfiguration\01-Provincia.sql" />
-    <None Include="ScriptConfiguration\02-Canton.sql" />
-    <None Include="ScriptConfiguration\03-Distrito.sql" />
+    <None Include="ScriptConfiguration\01-TipoInquilino.sql" />
   </ItemGroup>
   <ItemGroup>
     <PostDeploy Include="Script.PostDeployment1.sql" />

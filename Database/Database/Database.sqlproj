@@ -6,7 +6,7 @@
     <Name>Database</Name>
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectVersion>4.1</ProjectVersion>
-    <ProjectGuid>{5fafa559-80b3-42bc-ab99-71d74deadcb1}</ProjectGuid>
+    <ProjectGuid>{c6f772d6-48d1-418f-954d-705f52698284}</ProjectGuid>
     <DSP>Microsoft.Data.Tools.Schema.Sql.Sql130DatabaseSchemaProvider</DSP>
     <OutputType>Database</OutputType>
     <RootPath>
@@ -57,21 +57,18 @@
   <ItemGroup>
     <Folder Include="Properties" />
     <Folder Include="exp" />
-    <Folder Include="exp\Store Procedures" />
+    <Folder Include="exp\StoreProcedures" />
     <Folder Include="exp\Tables" />
-    <Folder Include="schema" />
+    <Folder Include="Schema" />
     <Folder Include="dbo" />
     <Folder Include="dbo\Tables" />
   </ItemGroup>
   <ItemGroup>
-    <Build Include="schema\exp.sql" />
-    <Build Include="exp\Tables\Empleado.sql" />
-    <Build Include="dbo\Tables\Provincia.sql" />
-    <Build Include="dbo\Tables\Canton.sql" />
-    <Build Include="dbo\Tables\Distrito.sql" />
-    <Build Include="exp\Store Procedures\EmpleadoInsertar.sql" />
-    <Build Include="exp\Store Procedures\EmpleadoActualizar.sql" />
-    <Build Include="exp\Store Procedures\EmpleadoEliminar.sql" />
-    <Build Include="exp\Store Procedures\EmpleadoObtener.sql" />
+    <Build Include="Schema\exp.sql" />
+    <Build Include="dbo\Tables\TipoInquilino.sql" />
+    <Build Include="exp\StoreProcedures\TipoInquilinoActualizar.sql" />
+    <Build Include="exp\StoreProcedures\TipoInquilinoEliminar.sql" />
+    <Build Include="exp\StoreProcedures\TipoInquilinoInsertar.sql" />
+    <Build Include="exp\StoreProcedures\TipoInquilinoObtener.sql" />
   </ItemGroup>
 </Project>
